@@ -1,0 +1,52 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:100px;
+    position: fixed;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    /* padding-left: 20px; */
+    padding-bottom: 20px;
+    /* padding-right: 20px; */
+    width: calc(50% - 50px);
+    height: 300px; /*  the height of the card */
+  overflow: auto; /* Add a scrollbar to the card */
+  }
+  
+  b:last-child{
+    font-size: 15px;
+  }
+  h1{
+    padding-top: 50px;
+  }
+
+  .d{
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .card-intro {
+    
+    color:black;
+    font-size: 20px;
+   padding: auto;
+    
+
+   
+    
+  }
+  .card-content{
+    padding: 20px;
+    height: 350px; /* Define the height of the card */
+    overflow: auto; /* Add a scrollbar to the card */
+  }
+  #a{
+    padding: 10px;
+    background-color: #e5e5e6;
+  }
+
+  
